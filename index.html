@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Animation CSS -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logo.png" />
+
+    <title>NVSP</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top sticky bgcolor">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/img/logo.png" class="img-thumbnail" width="48px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" style="color: #fff; font-size: 28px"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="btn btn-sm text-white" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-sm text-white" href="#tentang_kami"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-sm text-white" href="#jasa"
+                >Jasa Yang Kami Tawarkan</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-sm text-white" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-sm text-white" href="#tim">Tim</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-sm text-white" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">
+          <span class="auto-input"></span>
+        </h1>
+        <p data-aos="fade-down" data-aos-duration="3000">
+          PT Nakibai Visionary Persada adalah perusahaan yang fokus pada solusi
+          digital dan inovasi teknologi, dengan tujuan meningkatkan efisiensi,
+          produktivitas, dan kesejahteraan masyarakat serta dunia usaha.
+        </p>
+        <a href="#tentang_kami"
+          ><button
+            class="btn btn-sm bg-white"
+            data-aos="fade-up-left"
+            data-aos-duration="2000"
+          >
+            Baca Selanjutnya
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- End Jumbotron -->
+
+    <!-- Container -->
+    <div class="container">
+      <!-- Info Panel -->
+      <div class="row justify-content-center position-relative">
+        <div class="col-10 info-panel position-relative">
+          <div class="row">
+            <div class="col-lg">
+              <h4>One Stop Business and IT Solution</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Info Panel -->
+
+      <!-- Tentang Kami -->
+      <div class="row about" id="tentang_kami">
+        <h3 class="mt-2">Tentang Kami</h3>
+        <div class="col-lg-5" data-aos="fade-up-left" data-aos-duration="3000">
+          <p>
+            PT Nakibai Visionary Persada merupakan perusahaan yang berdiri atas
+            dasar visi untuk menjadi pelopor dalam solusi digital dan inovasi
+            teknologi. Dengan semangat kolaborasi yang kuat, kami menghadirkan
+            layanan berbasis teknologi yang dirancang untuk meningkatkan
+            efisiensi, produktivitas, dan kesejahteraan bagi masyarakat dan
+            dunia usaha.
+          </p>
+        </div>
+        <div class="col-lg-5" data-aos="fade-up-right" data-aos-duration="2000">
+          <p>
+            Kami percaya bahwa kemajuan teknologi harus diiringi dengan tanggung
+            jawab sosial, sehingga setiap inovasi yang kami hasilkan juga
+            mendukung pembangunan berkelanjutan. Dengan memanfaatkan beragam
+            teknologi, kami mampu menyediakan aplikasi yang fungsional, efisien,
+            dan siap menghadapi tantangan di masa mendatang.
+          </p>
+        </div>
+      </div>
+      <!-- End Tentang Kami -->
+
+      <!-- Jasa yang Kami Tawarkan -->
+      <div class="container my-5 jasa" id="jasa">
+        <h3 class="text-center mb-5">Jasa Yang Kami Tawarkan</h3>
+        <div class="row g-4">
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="card jasa-card">
+              <div class="card-img-wrapper">
+                <img
+                  src="assets/img/website_icon.jpeg"
+                  class="card-img-top"
+                  alt="Website Development"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-globe"></i> Website</h5>
+                <p class="card-text">
+                  Kami dapat membuat aplikasi database berbasis website, seperti
+                  data Karyawan, katalog, data transaksi, DLL. Serta menjadi
+                  layanan utama yang kami tawarkan.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="card jasa-card">
+              <div class="card-img-wrapper">
+                <img
+                  src="assets/img/mobile_icon.jpeg"
+                  class="card-img-top"
+                  alt="Mobile Development"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fas fa-mobile-alt"></i>Aplikasi Mobile
+                </h5>
+                <p class="card-text">
+                  Kami dapat membuat aplikasi berbasis android seperti aplikasi
+                  pemesanan, aplikasi pembayaran.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="card jasa-card">
+              <div class="card-img-wrapper">
+                <img
+                  src="assets/img/ui_ux.jpeg"
+                  class="card-img-top"
+                  alt="UI/UX Design"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fas fa-paint-brush"></i> Desain Aplikasi
+                </h5>
+                <p class="card-text">
+                  Kami bisa menyajikan design secara 2D, 3D, Software, Website,
+                  ataupun lainnya sesuai kebutuhan klien.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            <div class="card jasa-card">
+              <div class="card-img-wrapper">
+                <img
+                  src="assets/img/ml_icon.jpeg"
+                  class="card-img-top"
+                  alt="Machine Learning"
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <i class="fas fa-brain"></i> Machine Learning
+                </h5>
+                <p class="card-text">
+                  Salah satu jasa yang kami bisa tawarkan adalah Machine
+                  Learning, Seperti Pendeteksi Gambar, Suara, Wajah, Diagnosa
+                  penyakit, Klasifikasi Email dan banyak lagi lainnya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Jasa yang Kami Tawarkan -->
+
+      <!-- Portofolio -->
+      <div class="row portofolio">
+        <h1 class="text-left mb-5" id="portofolio">Portofolio</h1>
+
+        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="2000">
+          <img
+            src="assets/img/porto1.jpeg"
+            alt="workingspace"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-lg-5" data-aos="fade-right" data-aos-duration="3000">
+          <h3><span id="1">VeggieVine</span></h3>
+          <p>
+            Website VeggieVine, merupakan sebuah toko yang menawarkan produk
+            sayur dan buah-buahan segar berkualitas seperti wortel, brokoli,
+            apel, anggur dan lain lain. Website ini akan dibangun dengan
+            menggunakan Midtrans sebagai Payment Gateway yang berfungsi untuk
+            transaksi pembayaran.
+          </p>
+          <p></p>
+        </div>
+
+        <div
+          class="col-lg-6 mt-5"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+        >
+          <h3>
+            <span>Sistem Informasi Reimbursement Dan Purchase Requisition</span>
+          </h3>
+          <p>
+            Sistem Informasi Reimbursement Dan Purchase Requisition. Aplikasi
+            Website ini memungkinkan employee untuk membuat suatu Reimbursement
+            dan Purchase Requisition. Tujuan dibuatnya aplikasi ini untuk
+            mempermudah employee untuk melakukan Reimbursement dan Purchase
+            Requisition.
+          </p>
+        </div>
+        <div
+          class="col-lg-5 mt-3"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          <img
+            src="assets/img/porto2.png"
+            alt="workingspace"
+            class="img-fluid"
+          />
+        </div>
+
+        <div
+          class="col-lg-6 mt-5"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          <img
+            src="assets/img/porto3.jpeg"
+            alt="workingspace"
+            class="img-fluid"
+          />
+        </div>
+        <div
+          class="col-lg-5 mt-3"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+        >
+          <h3>
+            <span>Imam Resto</span>
+          </h3>
+          <p>
+            IMAM RESTO adalah restoran online yang menawarkan layanan booking
+            meja dan beragam menu berkualitas, seperti bakso, mie ayam, dan es
+            teh. Kami berkomitmen menyajikan makanan segar dengan bahan terbaik.
+            Transaksi pembayaran didukung oleh Midtrans untuk memastikan proses
+            yang aman dan cepat, dengan pilihan metode pembayaran seperti kartu
+            kredit, transfer bank, dan e-wallet.
+          </p>
+        </div>
+      </div>
+      <!-- End Portofolio -->
+
+      <!-- Tim  -->
+      <div class="container team py-5" id="tim">
+        <h3 class="text-center mb-5">Tim Kami</h3>
+
+        <div
+          id="teamCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div
+                  class="col-lg-4 col-md-6 mb-4"
+                  data-aos="fade-left"
+                  data-aos-duration="3000"
+                >
+                  <div class="card team-card h-100">
+                    <div class="card-img-wrapper">
+                      <img
+                        src="assets/img/ifran.jpeg"
+                        class="card-img-top"
+                        alt="Team Member 1"
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold mb-2">
+                        Ifran Hilmi Azhara
+                      </h5>
+                      <p class="card-text text-muted mb-3">Direktur Utama</p>
+                      <div class="social-links">
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-4 col-md-6 mb-4"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
+                  <div class="card team-card h-100">
+                    <div class="card-img-wrapper">
+                      <img
+                        src="assets/img/babeh.jpeg"
+                        class="card-img-top"
+                        alt="Team Member 2"
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold mb-2">
+                        Aditya Rizky Fajriansyah
+                      </h5>
+                      <p class="card-text text-muted mb-3">
+                        Lead Project Manager
+                      </p>
+                      <div class="social-links">
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-4 col-md-6 mb-4"
+                  data-aos="fade-right"
+                  data-aos-duration="3000"
+                >
+                  <div class="card team-card h-100">
+                    <div class="card-img-wrapper">
+                      <img
+                        src="assets/img/kirei.png"
+                        class="card-img-top"
+                        alt="Team Member 3"
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold mb-2">
+                        Faizah Kirei Maharani
+                      </h5>
+                      <p class="card-text text-muted mb-3">Lead Designer</p>
+                      <div class="social-links">
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Second Slide -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div
+                  class="col-lg-4 col-md-6 mb-4"
+                  data-aos="fade-left"
+                  data-aos-duration="3000"
+                >
+                  <div class="card team-card h-100">
+                    <div class="card-img-wrapper">
+                      <img
+                        src="assets/img/nanang.jpeg"
+                        class="card-img-top"
+                        alt="Team Member 4"
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold mb-2">Nanang Ramadhon S</h5>
+                      <p class="card-text text-muted mb-3">
+                        Lead Technical Writer
+                      </p>
+                      <div class="social-links">
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-4 col-md-6 mb-4"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
+                  <div class="card team-card h-100">
+                    <div class="card-img-wrapper">
+                      <img
+                        src="assets/img/bastian.jpeg"
+                        class="card-img-top"
+                        alt="Team Member 5"
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold mb-2">
+                        Muhammad Sebastian
+                      </h5>
+                      <p class="card-text text-muted mb-3">Lead Tester</p>
+                      <div class="social-links">
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-4 col-md-6 mb-4"
+                  data-aos="fade-right"
+                  data-aos-duration="3000"
+                >
+                  <div class="card team-card h-100">
+                    <div class="card-img-wrapper">
+                      <img
+                        src="assets/img/imam.jpeg"
+                        class="card-img-top"
+                        alt="Team Member 6"
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h5 class="card-title fw-bold mb-2">Imam Hidayat</h5>
+                      <p class="card-text text-muted mb-3">
+                        Lead System Analist
+                      </p>
+                      <div class="social-links">
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-linkedin"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="#" class="social-icon"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Navigation -->
+          <div class="carousel-navigation">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#teamCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#teamCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Carousel Indicators -->
+          <div class="carousel-indicators position-relative mt-4">
+            <button
+              type="button"
+              data-bs-target="#teamCarousel"
+              data-bs-slide-to="0"
+              class="active bg-dark"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#teamCarousel"
+              data-bs-slide-to="1"
+              class="bg-dark"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+        </div>
+      </div>
+      <!-- End Tim -->
+
+      <!-- Kontak -->
+      <div class="container py-5" id="kontak">
+        <div class="row pb-5">
+          <div class="col-12 text-center mb-1">
+            <h2 class="display-6 pt-5 warna-judul fw-bold">Kontak kami</h2>
+          </div>
+          <div class="col-12 col-md-12">
+            <div class="card shadow-lg">
+              <div class="row">
+                <div
+                  class="col-12 col-md-6"
+                  data-aos="zoom-out-right"
+                  data-aos-duration="1000"
+                >
+                  <img
+                    src="assets/img/kontak.jpeg"
+                    class="img-fluid d-none d-md-block"
+                    alt=""
+                    width="550"
+                    height="600"
+                    style="border-radius: 15px"
+                  />
+                </div>
+
+                <div
+                  class="col-10 col-md-5 mx-auto"
+                  style="margin-top: 40px"
+                  data-aos="zoom-out-left"
+                  data-aos-duration="1000"
+                >
+                  <form action="https://formspree.io/f/xeoqodev" method="POST">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Nama</label>
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="nama"
+                        autocomplete="off"
+                        style="border: 1px solid black"
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        id="email"
+                        autocomplete="off"
+                        style="border: 1px solid black"
+                      />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="msg" class="form-label">Message</label>
+                      <textarea
+                        name="msg"
+                        class="form-control"
+                        id="msg"
+                        autocomplete="off"
+                        style="border: 1px solid black"
+                        cols="30"
+                        rows="8"
+                      ></textarea>
+                    </div>
+
+                    <div>
+                      <button
+                        type="submit"
+                        class="btn w-100 mb-5 btn-sm btn-outline-primary"
+                      >
+                        Kirim
+                      </button>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="col-12 mx-auto">
+                  <center>
+                    <h4 class="lokasikami">
+                      Lokasi Kami <i class="fa-solid fa-map-location-dot"></i>
+                    </h4>
+                  </center>
+
+                  <iframe
+                    data-aos="flip-up"
+                    data-aos-duration="1000"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2912306905164!2d106.96758251744384!3d-6.229139999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c71461d1655%3A0x4033886939e0d456!2sJl.%20Kepodang%20I%2C%20Medan%20Satria%2C%20Kec.%20Bekasi%20Bar.%2C%20Kota%20Bks%2C%20Jawa%20Barat%2017134!5e0!3m2!1sid!2sid!4v1629789145693!5m2!1sid!2sid"
+                    width="100%"
+                    height="450"
+                    style="border: 0; margin-bottom: 15px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Kontak -->
+    </div>
+    <!-- End Container -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#103564"
+        fill-opacity="1"
+        d="M0,96L60,101.3C120,107,240,117,360,112C480,107,600,85,720,96C840,107,960,149,1080,144C1200,139,1320,85,1380,58.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- Footer -->
+    <footer class="text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Nakibai Visionary Sejahtera Persada</h3>
+          </div>
+          <div class="col-md-6">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled">
+              <li><a class="text-white" href="#">Beranda</a></li>
+              <li>
+                <a class="text-white" href="#tentang_kami">Tentang Kami</a>
+              </li>
+              <li>
+                <a class="text-white" href="#jasa">Jasa Yang Kami Tawarkan</a>
+              </li>
+              <li>
+                <a class="text-white" href="#portofolio">Portofolio</a>
+              </li>
+              <li>
+                <a class="text-white" href="#tim">Tim</a>
+              </li>
+              <li>
+                <a class="text-white" href="#kontak">Kontak</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <img
+              src="assets/img/logo.png"
+              class="img-thumbnail"
+              width="200px"
+            />
+          </div>
+        </div>
+        <hr class="bg-light" />
+        <div class="text-center">
+          <small
+            >&copy; 2024 Nakibai Visionary Sejahtera Persada. All rights
+            reserved.</small
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        once: true,
+        mirror: false,
+      });
+
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 100);
+      });
+
+      var typed = new Typed(".auto-input", {
+        strings: ["Selamat Datang Di Nakibai Visionary Sejahtera Persada"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

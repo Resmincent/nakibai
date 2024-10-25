@@ -1,0 +1,427 @@
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar-brand,
+.nav-item {
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.bgcolor {
+  background-color: transparent;
+}
+
+nav.sticky {
+  /* padding: 10px 100px; */
+  background-color: #103564;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  background-color: #0c3693;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.jumbotron a {
+  background-color: white;
+  border-radius: 12px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+/* Info Panel Styles */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -50px;
+  background-color: white;
+  padding: 30px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.info-panel h4 {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.btn-hover-scale {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-hover-scale :hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+/*  AboutSection Styles */
+.about {
+  margin-top: 100px;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.about p {
+  font-size: 18px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.about h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px auto;
+}
+
+/* Jasa (Services) Section Styles */
+.jasa {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.jasa h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #103564;
+}
+
+/* Service Cards Styles */
+.jasa-card {
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1;
+}
+
+.jasa-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.jasa-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.jasa-card .card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jasa-card .card-title {
+  color: #103564;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.jasa-card .card-title i {
+  margin-right: 0.5rem;
+  color: #0c3693;
+}
+
+.jasa-card .card-text {
+  color: #6c757d;
+  text-align: justify;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* portofolio styles */
+.portofolio {
+  margin-top: 60px;
+}
+
+.portofolio img {
+  border-radius: 10px;
+}
+
+.portofolio h3 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.portofolio p {
+  font-size: 14px;
+  margin: 20px;
+  text-align: justify;
+}
+
+/* Styles Tim */
+
+.team h3 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.team-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-wrapper {
+  overflow: hidden;
+  position: relative;
+  padding-top: 75%;
+}
+
+.card-img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.team-card:hover .card-img-wrapper img {
+  transform: scale(1.1);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  color: #666;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+}
+
+.social-icon:hover {
+  color: #0d6efd;
+  background-color: #e9ecef;
+  transform: translateY(-3px);
+}
+
+/* Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+  opacity: 1;
+}
+
+.carousel-control-prev {
+  left: -20px;
+}
+
+.carousel-control-next {
+  right: -20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+  margin-bottom: 0;
+}
+
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .team-card {
+    margin: 10px 5px;
+  }
+}
+
+/* Smooth Transitions */
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+/* Card Content Spacing */
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #103564;
+  color: white;
+  padding: 2rem 0;
+}
+
+footer h3 {
+  margin-bottom: 1rem;
+  font-size: 26px;
+}
+
+footer a {
+  color: #d28137;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #e5533b;
+}
+
+footer hr {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Styles */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-item {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-item {
+    text-transform: uppercase;
+    margin-right: 30px;
+    transition: background 0.3s;
+  }
+
+  .nav-item:hover {
+    background: white;
+    border-radius: 8px;
+  }
+
+  nav.sticky {
+    padding: 10px 100px;
+    background-color: #103564;
+  }
+
+  .jumbotron {
+    height: 35em;
+    padding-top: 100px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 60px;
+  }
+
+  .about {
+    text-align: left;
+    padding: 70px 100px;
+  }
+
+  .info-panel {
+    max-width: 400px;
+    padding: 40px;
+    margin-top: -30px;
+  }
+
+  .jasa {
+    padding: 80px 0;
+  }
+
+  .jasa-card .card-img-top {
+    height: 220px;
+  }
+}
