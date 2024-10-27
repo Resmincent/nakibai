@@ -101,6 +101,26 @@ nav.sticky {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* Visi Misi */
+
+#visi-misi .section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#visi-misi .card {
+  border: none;
+  border-radius: 10px;
+}
+#visi-misi .card-title {
+  font-size: 1.5rem;
+}
+.visi-misi-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
 /*  AboutSection Styles */
 .about {
   margin-top: 100px;
