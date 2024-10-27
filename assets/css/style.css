@@ -100,6 +100,27 @@ nav.sticky {
   transform: scale(1.05);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
+
+/* Visi Misi */
+
+#visi-misi .section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#visi-misi .card {
+  border: none;
+  border-radius: 10px;
+}
+#visi-misi .card-title {
+  font-size: 1.5rem;
+}
+.visi-misi-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
 /*  AboutSection Styles */
 .about {
   margin-top: 100px;
@@ -371,6 +392,68 @@ footer a:hover {
 
 footer hr {
   border-color: rgba(255, 255, 255, 0.2);
+}
+
+.section-divider {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(16, 53, 100, 0),
+    rgba(16, 53, 100, 0.75),
+    rgba(16, 53, 100, 0)
+  );
+  margin: 3rem 0;
+}
+
+.section-title {
+  margin-top: 2rem;
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background: #103564;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: #103564;
+  opacity: 0.5;
+}
+
+.section-title {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Responsive Styles */
